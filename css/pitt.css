@@ -4,3 +4,43 @@ tei-teiheader {
 tei-p,tei-ab {
   display:block;
 }
+
+tei-reg {
+  display: none;
+}
+
+tei-orig {
+  font-weight: bold;
+}
+
+/*tei-orig:after {
+  content: tei-reg;
+}*/
+
+tei-lem {
+  display: none;
+}
+
+tei-rdg {
+  font-weight: bold;
+
+}
+
+/*tei-lb:before {
+  white-space: pre;
+  content: "\A";
+}*/
+
+/*tei-supplied:before {
+  content: "[";
+}
+
+tei-supplied:after {
+  content: "]";
+}*/
+
+tei-unclear {
+  text-emphasis-style: dot;
+  text-emphasis-position: under left;
+  /*text-decoration: underline black;*/
+}
